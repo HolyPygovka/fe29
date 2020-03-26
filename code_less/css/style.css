@@ -1,0 +1,28 @@
+p {
+  color: #00b300;
+  font-size: 14px;
+}
+p a {
+  color: blue;
+  padding: 5px 20px;
+  border: 1px solid blue;
+  background-color: green;
+}
+p a:hover {
+  background-color: blue;
+}
+@media (max-width: 1200px) {
+  p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  p {
+    color: blue;
+  }
+}
+.buy_btn {
+  padding: 5px 20px;
+  border: 1px solid #000;
+  background-color: #fff;
+}

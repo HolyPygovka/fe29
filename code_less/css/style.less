@@ -1,0 +1,32 @@
+@import "vars";
+@import "mixins";
+@import "./blocks/price_section";
+
+p {
+    color: lighten(@primary, 10%);
+    font-size: 14px;
+    a {
+        color: @secondary;
+        .btn(@primary, @secondary);
+        &:hover {
+            background-color: @secondary;
+        }
+    }
+    @media @breakpoint-desktop {
+        font-size: 20px;
+    }
+    @media (max-width: 991px) {
+        color: @secondary;
+    }
+}
+
+
+.buy_btn {
+    .btn(#fff, #000);
+}
+
+
+
+@media (max-widht: 991px) {
+
+}
