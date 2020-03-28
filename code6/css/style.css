@@ -1,0 +1,48 @@
+h1 {
+  font-size: 65px;
+  line-height: 71px;
+  color: #fff;
+}
+.button {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 18px 45px;
+  background-color: #e84545;
+  border-radius: 2px;
+  display: inline-block;
+}
+.main_container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 80%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+  }
+}
+.header_section {
+  background-image: url(../img/header_section_bg.png);
+  background-size: cover;
+}
+.header_section header {
+  border-bottom: 1px solid #6c7279;
+  padding: 30px 0;
+  margin-bottom: 140px;
+}
+@media (max-width: 768px) {
+  .header_section header .main_nav {
+    flex-wrap: nowrap;
+  }
+}
+.header_section .main_block {
+  text-align: center;
+}
